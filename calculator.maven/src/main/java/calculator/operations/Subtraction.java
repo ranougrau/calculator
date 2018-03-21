@@ -1,19 +1,19 @@
 package calculator.operations;
 
-public class Addition extends Operation {
-	
+public class Subtraction extends Operation {
 	public String getName() {
-		return "addition";
+		return "subtraction";
 	}
 
 	
 	public String getOperator() {
-		return "+";
+		return "-";
 	
 	}
 	
 	@Override
 	public double calc() {
-		return a + b;
+		return a - b;
 	}
+
 }
